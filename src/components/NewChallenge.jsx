@@ -36,7 +36,7 @@ export default function NewChallenge({ onDone }) {
     ) {
       animate(
         'input, textarea', 
-        { x: [ -10 , 0 , 10 , 0 ] }, 
+        { x: [ -10 , 0 , 10 , 0 ], borderColor:'red' }, 
         {type: 'spring', duration:0.2, delay: stagger(0.05)}
       );
       return;
